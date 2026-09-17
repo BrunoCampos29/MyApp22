@@ -8,29 +8,29 @@
     tools:context=".MainActivity">
 
     <View
-        android:id="@+id/paiinicial"
+        android:id="@+id/quadradotopo"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:background="#4343"/>
 
     <TextView
-        android:id="@+id/cima1"
+        android:id="@+id/texttopo1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="..."
         android:layout_margin="10dp"/>
 
     <TextView
-        android:id="@+id/cima2"
-        android:layout_below="@+id/cima1"
+        android:id="@+id/texttop2"
+        android:layout_below="@+id/texttopo1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hi, Jhon"
         android:layout_margin="10dp"/>
 
     <TextView
-        android:id="@+id/cima3"
-        android:layout_below="@id/cima2"
+        android:id="@+id/texttop3"
+        android:layout_below="@id/texttop2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bus"
@@ -39,9 +39,31 @@
 
     <!--FIM DA PARTE DE CIMA-->
 
+    <!--INICIO DO PRIMEIRO QUADRADO-->
     <TextView
+        android:id="@+id/quadradoprimeiro"
+        android:layout_below="@id/texttop3"
+        android:layout_centerHorizontal="true"
         android:layout_width="350dp"
         android:layout_height="150dp"
-        />
+        android:background="#766743"/>
+
+    <TextView
+        android:id="@+id/textquadrado1"
+        android:layout_alignTop="@id/quadradoprimeiro"
+        android:layout_alignLeft="@id/quadradoprimeiro"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="FROM"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/textquadrado2"
+        android:layout_below="@id/textquadrado1"
+        android:layout_alignLeft="@id/quadradoprimeiro"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Location 1"
+        android:layout_margin="10dp"/>
 
 </RelativeLayout>
