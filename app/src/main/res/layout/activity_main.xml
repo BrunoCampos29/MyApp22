@@ -55,7 +55,9 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="FROM"
-        android:layout_margin="10dp"/>
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
 
     <TextView
         android:id="@+id/textquadrado2"
@@ -64,6 +66,25 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Location 1"
-        android:layout_margin="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textquadrado3"
+        android:layout_below="@id/textquadrado2"
+        android:layout_alignLeft="@id/quadradoprimeiro"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="TO"
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/textquadrado4"
+        android:layout_below="@id/textquadrado3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Location 2"/>
 
 </RelativeLayout>
