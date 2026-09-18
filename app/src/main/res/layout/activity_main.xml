@@ -83,8 +83,35 @@
     <TextView
         android:id="@+id/textquadrado4"
         android:layout_below="@id/textquadrado3"
+        android:layout_alignLeft="@id/quadradoprimeiro"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Location 2"/>
+        android:text="Location 2"
+        android:layout_marginLeft="10dp"/>
+
+    <!--FIM DO PRIMEIRO QUADRADO-->
+
+    <!--INICIO DO RETANGULO-->
+
+    <TextView
+        android:id="@+id/retangulosegundo"
+        android:layout_below="@id/quadradoprimeiro"
+        android:layout_centerHorizontal="true"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:background="#6357"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textretangulo1"
+        android:layout_alignTop="@id/retangulosegundo"
+        android:layout_alignLeft="@id/retangulosegundo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="PASSENGER"
+        android:textSize="10sp"/>
+
+    <!--FIM DO SEGUNDO QUADRADO-->
+
 
 </RelativeLayout>
