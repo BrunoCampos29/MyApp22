@@ -109,7 +109,39 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="PASSENGER"
-        android:textSize="10sp"/>
+        android:textSize="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textretangulo2"
+        android:layout_below="@id/textretangulo1"
+        android:layout_alignLeft="@id/retangulosegundo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="01"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/textretangulo3"
+        android:layout_below="@id/textretangulo2"
+        android:layout_alignLeft="@id/retangulosegundo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="DEPART"
+        android:textSize="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textretangulo4"
+        android:layout_below="@id/textretangulo3"
+        android:layout_alignLeft="@id/retangulosegundo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sun 3 Jun 2021"
+        android:layout_marginLeft="10dp"/>
 
     <!--FIM DO SEGUNDO QUADRADO-->
 
